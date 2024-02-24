@@ -1,0 +1,15 @@
+//  circle {
+//     constructor(radius=1.0, color = 'blue') {
+//         this.radius = radius;
+//         this.color = color;
+// }
+// get _radius() {
+//     return this.radius;
+// }
+// set _radius(radius) {
+//     this.radius = radius;
+//     }
+// }
+// const circle = new circle  (4.5, 'red');
+// circle_radius = 6.45;
+// console.log(circle._radius);

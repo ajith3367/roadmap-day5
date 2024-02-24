@@ -1,0 +1,47 @@
+// public class Movie {
+//     // Properties
+//     private String title;
+//     private String studio;
+//     private String rating;
+
+//     // Constructor with default rating "PG"
+//     public Movie(String title, String studio, String rating) {
+//         this.title = title;
+//         this.studio = studio;
+//         // If no rating provided, set default to "PG"
+//         this.rating = (rating != null && !rating.isEmpty()) ? rating : "PG";
+//     }
+
+//     // Method to get movies with rating "PG"
+//     public static Movie[] getPG(Movie[] movies) {
+//         int countPG = 0;
+
+//         // Count number of movies with rating "PG"
+//         for (Movie movie : movies) {
+//             if (movie.rating.equals("PG")) {
+//                 countPG++;
+//             }
+//         }
+
+//         // Create a new array for "PG" movies
+//         Movie[] pgMovies = new Movie[countPG];
+//         int index = 0;
+
+//         // Populate the new array with "PG" movies
+//         for (Movie movie : movies) {
+//             if (movie.rating.equals("PG")) {
+//                 pgMovies[index++] = movie;
+//             }
+//         }
+
+//         return pgMovies;
+//     }
+
+//     public static void main(String[] args) {
+//         Movie veeramMovie = new Movie("Veeram", "Example Studios", "PG-13");
+
+//         System.out.println("Movie Title: " + veeramMovie.title);
+//         System.out.println("Studio: " + veeramMovie.studio);
+//         System.out.println("Rating: " + veeramMovie.rating);
+//     }
+// }
